@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+import logo from './logo.png';
 import './App.css';
 import { Elephant } from './classification/species/elephant';
 
@@ -16,7 +16,7 @@ class App extends React.Component<any, any> {
 
 		if (selectedValue === 'elephant') {
 			this.activeAnimal = new Elephant();
-			debugger;
+			console.log(this.activeAnimal.makeSound());
 		}
 	}
 

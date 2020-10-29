@@ -1,7 +1,13 @@
 import { Animalia } from '../kingdom/animalia';
 
 export class Chordata extends Animalia {
-	phylumCharateristics = [
-		'',
-	];
+	phylumCharacteristics = {
+		is: [
+			'bilaterally symmetric',
+		],
+		has: [
+			'a coelom',
+			'a circulatory system',
+		],
+	};
 }

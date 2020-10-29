@@ -1,1 +1,3 @@
-export type BaseConstructor = new (...args: any[]) => any;
+import { BaseAnimal } from './baseAnimal';
+
+export type BaseConstructor = new (...args: any[]) => BaseAnimal;
