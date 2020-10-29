@@ -1,0 +1,1 @@
+export type BaseConstructor = new (...args: any[]) => any;
